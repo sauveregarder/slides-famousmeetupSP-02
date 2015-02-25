@@ -1,0 +1,31 @@
+template(name='slide3')
+  +HeaderFooterLayout headerSize=100 footerSize=70 size='[900, undefined]' align='[.5, .5]' origin='[.5, .5]'
+    +Surface target='header'
+      h2 Famo.us Meetup - Build system
+    +Surface align='[.5, .5]' origin='[.5, .5]' target='content'
+      ul
+        li Yeoman & Grunt: Use o do Myles
+          a(href='https://github.com/FamousTools/generator-famous') Famo.us
+          | .
+        li Gulp: Vários templates e amostras:
+          a(href='https://github.com/PEM--/hellofamousgulped') HelloFamousGulped
+          | .
+        li
+          a(href='https://www.meteor.com') Meteor
+          | : Possui seu próprio build system.
+      p.left Instale e Crie um Projeto:
+      +prism language='bash' class='line-numbers'
+        | # Instalação de Auxiliares (adicione sudo caso o comando abaixo falhe)
+        | npm install -g yo grunt-cli bower
+        | # Instalação do Gerador
+        | npm install -g generator-famous
+        | # Crie uma pasta pelo terminal
+        | mkdir famousApp
+        | # Entre na pasta pelo terminal
+        | cd famousApp
+        | # Use yeoman para gerar o boilerplate
+        | yo famous
+        | # Rode o servidor local
+        | grunt serve
+    +Surface target='footer'
+        p Slide-deck de Pierre-Eric Marchandet & Apresentação de Filipe Russo

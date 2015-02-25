@@ -1,0 +1,33 @@
+template(name='slide4')
+  +HeaderFooterLayout headerSize=100 footerSize=70 size='[900, undefined]' align='[.5, .5]' origin='[.5, .5]'
+    +Surface target='header'
+      h2 Famo.us Meetup - Uma casca vazia: index.html
+    +Surface align='[.5, .5]' origin='[.5, .5]' target='content'
+
+      +prism language='markup' class='line-numbers'
+        |  &lt;!DOCTYPE HTML>
+        |  &lt;html>
+        |   &lt;head>
+        |    &lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        |    &lt;title>FamousApp&lt;/title>
+        |    &lt;meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=no" />
+        |    &lt;meta name="mobile-web-app-capable" content="yes" />
+        |    &lt;meta name="apple-mobile-web-app-capable" content="yes" />
+        |    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        |    &lt;meta name="msapplication-tap-highlight" content="no" />
+        |    &lt;!-- build:css(app/) css/famous.css -->
+        |    &lt;link rel="stylesheet" type="text/css" href="lib/famous/src/core/famous.css" />
+        |    &lt;!-- build:css(app/) css/app.css -->
+        |    &lt;link rel="stylesheet" type="text/css" href="styles/app.css" />
+        |    &lt;!-- build:js(app/) src/polyfills.js -->
+        |    &lt;script type="text/javascript" src="lib/famous-polyfills/functionPrototypeBind.js">&lt;/script>
+        |    &lt;script type="text/javascript" src="lib/famous-polyfills/classList.js">&lt;/script>
+        |    &lt;script type="text/javascript" src="lib/famous-polyfills/requestAnimationFrame.js">&lt;/script>
+        |    &lt;script type="text/javascript" src="src/main.js">&lt;/script>
+        |    &lt;script type="text/javascript" src="lib/requirejs/require.js" data-main="src/requireConfig">&lt;/script>
+        |   &lt;/head>
+        |   &lt;body>&lt;/body>
+        |  &lt;/html>
+    +Surface target='footer'
+     p Slide-deck de Pierre-Eric Marchandet & Apresentação de Filipe Russo
+
