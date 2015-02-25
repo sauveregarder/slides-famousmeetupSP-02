@@ -1,9 +1,13 @@
-## Introduction
-Slides for [Famo.us's meetup in Paris](http://www.meetup.com/Paris-Famo-us-Meetup-France/), the October 24th, 2014.
+## Introdução
+Slides da [Famo.us's meetup em São Paulo](http://www.meetup.com/famous-Brazil-Sao-Paulo/), em 25 de Fevereiro, 2015.
 
 ![Slides](https://raw.githubusercontent.com/PEM--/MeetupFamousSlides/master/private/doc/slides.jpg)
 
-## Online slides
-The slides are deployed on Meteor: http://meetupfamousslides.meteor.com
+## Slides Online
+Os slides estão no Meteor: http://famousmeetupsp.meteor.com/
 
-You can find additional informations on the presentation engine on my blog: http://pem-musing.blogspot.fr/2014/10/create-your-slide-deck-using-famous-and.html
+Você pode encontrar conteúdo adicional sobre o sistema de apresentação no blog do seu criador:
+http://pem-musing.blogspot.fr/2014/10/create-your-slide-deck-using-famous-and.html
+
+Demais recursos sobre famo.us e famo.us/meteor podem ser encontrados sob minha curadoria:
+https://famous.zeef.com/filipe.russo
